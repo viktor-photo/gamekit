@@ -1,0 +1,336 @@
+/* === Media Queries === */
+@media only screen and (max-width: 1024px){
+	.banner-dynamic-content h2.title{ font-size: 40px;}
+	.banner-dynamic-content .large-tip .small-4 span{ font-size: 14px;}
+	
+	.secondary-nav.user-profile-nav li{ margin-right: 15px;}
+	
+	article.post .post-like span{ font-size: 11px;}
+	
+	.widget.missions .list-view .badges-list li img{ 
+		width: 30px;
+		height: 30px;
+	}
+	.widget.goals .list-view .badges-list li img{ 
+		width: 21px;
+		height: 21px;
+	}
+	.widget.missions .mission-finished .badges-list li span{ font-size: 12px;}
+
+	.rank-table .place{	width: 12.5%;}
+	.rank-table .name{ width: 57.5%;}
+}
+
+
+@media only screen and (max-width: 900px){
+	.main-banner.game-profile{
+		height: 345px;
+	}
+	.main-banner.game-profile .banner-dynamic-content{
+		margin-top: 30px;
+	}
+
+	.banner-dynamic-content h2.title{ font-size: 30px;}
+
+	.main-nav ul li a{ padding: 2px 12px 0;}
+	
+	.game-stream .banner-dynamic-content h2.title{ font-size: 24px;}
+	.game-stream .banner-dynamic-content .subtitle{ font-size: 14px;}
+	.game-stream .banner-dynamic-content .game-rating{ max-width: 140px;}
+	.banner-dynamic-content .image-container{
+		width: 120px !important;
+	}
+	.banner-dynamic-content .banner-content-wrap{
+		padding-left: 150px !important;
+	}
+	.banner-dynamic-content .game-image{
+		border-radius: 10px;
+	}
+	.banner-dynamic-content .button.large{
+		font-size: 0.925em !important;
+		padding: 0 20px;
+		line-height: 40px;
+	}
+	.banner-dynamic-content .large-tip{
+		margin-left: 125px;
+		height: 42px;
+	}
+	.banner-dynamic-content .large-tip .tip-part-1,
+	.banner-dynamic-content .large-tip .tip-part-2{
+		height: 42px;
+		padding: 5px 10px;
+	}
+	
+	.user-meta span{font-size: 12px;}
+	.user-meta span strong{font-size: 20px;}
+	.user-actions .send-message,
+	.add-to-friends,
+	.button-black,
+	.actions a,
+	.breadcrumbs,
+	.game-stream .banner-dynamic-content .user-counter-meta,
+	.banner-dynamic-content .large-tip .tip-part-1 span,
+	.banner-dynamic-content .large-tip .tip-part-2{ font-size: 12px;}
+	
+	.banner-dynamic-content .badges-list a img,
+	.banner-dynamic-content .large-tip img{
+		width: 26px;
+		height: 26px;
+	}
+	.banner-dynamic-content .large-tip .tip-part-1,
+	.banner-dynamic-content .large-tip .tip-part-2{
+		height: 42px;
+	}
+	.banner-dynamic-content .large-tip .tip-part-1,
+	.banner-dynamic-content .large-tip .tip-part-2{ padding: 6px;}
+	.banner-dynamic-content .large-tip .tip-part-1{
+		line-height: 28px;
+	}
+	.banner-dynamic-content .badges-list{
+		margin-top: 10px;
+	}
+	.game-profile .game-rating-wrap{
+		top: 140px;
+		width: 128px;
+	}
+	.banner-dynamic-content .game-rating span{
+		height: 20px;
+		background-size: 20px 20px;
+	}
+
+	.game-stream-list .banner-dynamic-content .banner-content-wrap{
+		padding-right: 120px;
+	}
+
+	.streamed-games .list-view .stream-numbers,
+	.streamed-games .list-view .stream-subscribers{ 
+		margin-bottom: 5px;
+		font-size: 11px;
+	}
+	.streamed-games .list-view .game-card p{
+		font-size: 12px;
+		width: 82%;
+	}
+	.streamed-games .list-view .game-title{ font-size: 16px}
+	.streamed-games .list-view .game-card .play-btn{ width: 90px;}
+	.streamed-games .list-view .game-card .card-content{ 
+		padding: 10px 10px 0;
+	}
+
+	.widget.goals .list-view .card-content h3{ margin-bottom: 8px;}
+	.widget.goals .list-view .game-card .card-content{ padding-bottom: 35px;}
+	
+	.grouped-btns span{
+		width: auto;
+		padding: 0 20px;
+	}
+
+	.other-games .grid-view .game-card-wrap{ width: 50%;}
+	.other-games .grid-view .game-card-wrap:nth-of-type(3){ padding-top: 20px;}
+	.other-games .grid-view .game-card-wrap:last-of-type{ border-bottom: none;}
+
+	.game-stream-list .stream-slider,
+	.game-stream-list .owl-stage,
+	.game-stream-list .owl-item,
+	.game-stream-list .item-video,
+	.game-stream-list .owl-video-wrapper{ height: 275px;}
+
+	.widget.missions .grid-view .card-content .badges-list{ height: 52px;}
+	.widget.missions .grid-view .card-content p{ margin-bottom: 10px;}
+
+	.widget.missions .badges-list li,
+	.widget.missions .badges-list li a,
+	.widget.missions .badges-list li a span{
+		height: 30px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.widget.missions .badges-list li img{ 
+		width: 30px;
+		height: 30px;
+	}	
+	.widget.missions .card-content .emerald-btn,
+	.widget.missions .mission-finished span.finished{
+		height: 30px;
+		line-height: 28px;
+	}
+	.widget.missions .list-view .emerald-btn{ right: 10px;}
+
+	.widget.missions .mission-finished span.finished,
+	.widget.missions .mission-finished .badges-list li span{ font-size: 12px;}
+
+	.get-points-banner .banner-dynamic-content h2.title{font-size: 28px;}
+
+	.rank-table .place{	width: 15%;}
+	.rank-table .name{ width: 55%;}
+	.rank-table-body .award i{margin-right: 10px;}
+
+	.hint-title span,
+	.hint-content p{ font-size: 12px;}
+
+	.gallery .gallery-item{
+		width: 33%;
+	}
+}
+
+
+@media only screen and (max-width: 800px){
+	.secondary-nav.user-profile-nav li{	margin-right: 10px;}
+	
+	.streamed-games .list-view .game-card p{ font-size: 11px;}
+	.streamed-games .grid-view .game-card-wrap{	width: 50%;}
+	
+	.game-stream-list .stream-slider,
+	.game-stream-list .owl-stage,
+	.game-stream-list .owl-item,
+	.game-stream-list .item-video,
+	.game-stream-list .owl-video-wrapper{ height: 225px;}
+
+	.widget.missions .grid-view .card-content{ padding: 10px;}
+	.widget.missions .grid-view .card-content .badges-list{ 
+		margin: 10px -10px;
+		padding: 10px 0 10px 10px;
+	}
+	.widget.missions .badges-list li a span{ margin: 0 5px 0 0;}
+	.widget.missions .list-view .badges-list{ margin-top: 5px;}
+	.widget.missions .game-card .game-title{ margin-bottom: 5px;}
+
+	.get-points-banner .banner-dynamic-content h2.title{font-size: 22px;}
+	.get-points-banner .banner-dynamic-content .subtitle,
+	.get-points-banner .banner-dynamic-content .current-progress-legend{ font-size: 14px;}
+
+	.rank-table-body .award i{margin-right: 5px;}
+	
+	.gallery .gallery-item{
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	.main-nav .mobile-menu-trigger{
+		display: block;
+	}
+	.main-nav .small-12 > ul{
+		width: 100%;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 999;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-animation: slideOut 0.35s ease both;
+		-moz-animation: slideOut 0.35s ease both;
+		-ms-animation: slideOut 0.35s ease both;
+		animation: slideOut 0.35s ease both;
+		-webkit-transition: opacity 0.35s ease, visibility 0.35s ease;
+		-moz-transition: opacity 0.35s ease, visibility 0.35s ease;
+		-ms-transition: opacity 0.35s ease, visibility 0.35s ease;
+		transition: opacity 0.35s ease, visibility 0.35s ease;
+	}
+	.main-nav .small-12 > ul.expanded{
+		opacity: 1;
+		visibility: visible;
+		-webkit-animation: slideIn 0.35s ease both;
+		-moz-animation: slideIn 0.35s ease both;
+		-ms-animation: slideIn 0.35s ease both;
+		animation: slideIn 0.35s ease both;
+		-webkit-transition: opacity 0.35s ease, visibility 0.35s ease;
+		-moz-transition: opacity 0.35s ease, visibility 0.35s ease;
+		-ms-transition: opacity 0.35s ease, visibility 0.35s ease;
+		transition: opacity 0.35s ease, visibility 0.35s ease;
+	}	
+	.main-nav .small-12 > ul li{
+		display: block;
+		width: 100%;
+		background: #0781c6;
+		opacity: 0;
+	}
+	.main-nav .small-12 > ul li{
+		opacity: 1;
+	}
+	.main-nav .small-12 > ul.expanded li{
+		border-bottom: 3px solid #0788D0;
+	}
+	.main-nav .small-12 > ul.expanded ul li:last-child{
+		border-bottom: none;
+	}
+	.main-nav .small-12 > ul.expanded li:first-child{
+		border-top: 3px solid #0788D0;
+	}
+	.main-nav .small-12 > ul.expanded li ul{
+		width: 100%;
+		display: none;
+		position: relative;
+		top: 0;
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.main-nav .small-12 > ul.expanded ul.expanded{
+		display: block;
+	}
+
+	.main-nav ul li.has-child > a{
+		margin-right: 70px;
+		padding-right: 0;
+	}
+	.main-nav ul li.has-child > a:before {
+		display: none;
+	}
+	.main-nav ul li.has-child:before {
+		content: '';
+		width: 17px;
+		height: 17px;
+		display: block;
+		position: absolute;
+		top: 14px;
+		right: 24px;
+		cursor: pointer;
+		z-index: 2;
+		background: url('../img/icons/mobile-menu-arrows.png') no-repeat 0 -17px;
+	}
+	.main-nav ul li.has-child.active:before {
+		background-position: 0 0;
+	}
+	.main-nav ul li.has-child:after {
+		content: '';
+		width: 43px;
+		height: 43px;
+		display: block;
+		position: absolute;
+		top: 0px;
+		right: 12px;
+		cursor: pointer;
+		z-index: 1;
+		background: #0788D0;
+	}
+	.main-nav ul li a{
+		border-bottom: none;
+		display: block;
+		padding: 2px 0 0 20px;
+	}	
+	.main-nav ul li.has-child ul a{
+		padding-left: 40px;
+		position: relative;
+	}
+	.main-nav ul li.has-child ul a:before{
+		content: '';
+		width: 7px;
+		height: 10px;
+		display: block;
+		position: absolute;
+		top: 14px;
+		left: 22px;
+		background: url('../img/icons/arrow-right-sprite.png') no-repeat 0 0;
+	}
+}
+
+
+@media only screen and (max-width: 520px){
+	.gallery .gallery-item{
+		width: 100%;
+	}
+}

@@ -1,0 +1,89 @@
+/* === Element SlideUp === */
+@-webkit-keyframes slideUp {
+	0% {-webkit-transform: translate3d(0,100%,0);transform: translate3d(0,100%,0);}
+	100% {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+}
+@-moz-keyframes slideUp {
+	0% {-moz-transform: translate3d(0,100%,0);transform: translate3d(0,100%,0);}
+	100% {-moz-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+}
+@-ms-keyframes slideUp {
+	0% {-ms-transform: translate3d(0,100%,0);transform: translate3d(0,100%,0);}
+	100% {-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+}
+@keyframes slideUp {
+	0% {-webkit-transform: translate3d(0,100%,0);-moz-transform: translate3d(0,100%,0);transform: translate3d(0,100%,0);}
+	100% {-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+}
+.slideUp{
+	outline:1px solid transparent;
+	-webkit-animation: slideUp 0.75s ease-out 0.5s both;
+	-moz-animation: slideUp 0.75s ease-out 0.5s both;
+	-ms-animation: slideUp 0.75s ease-out 0.5s both;
+	animation: slideUp 0.75s ease-out 0.5s both;
+}
+
+/* === DropDown SlideOut === */
+@-webkit-keyframes slideOut {
+	0% {opacity:1;-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+	100% {opacity:0;-webkit-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+}
+@-moz-keyframes slideOut {
+	0% {opacity:1;-moz-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+	100% {opacity:0;-moz-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+}
+@-ms-keyframes slidOut {
+	0% {opacity:1;-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+	100% {opacity:0;-ms-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+}
+@keyframes slideOut {
+	0% {opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+	100% {opacity:0;-webkit-transform: translate3d(0,20px,0);-moz-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+}
+
+/* === DropDown SlideIn === */
+@-webkit-keyframes slideIn {
+	0% {opacity:0;-webkit-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+	100% {opacity:1;-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+}
+@-moz-keyframes slideIn {
+	0% {opacity:0;-moz-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+	100% {opacity:1;-moz-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+}
+@-ms-keyframes slideIn {
+	0% {opacity:0;-ms-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+	100% {opacity:1;-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+}
+@keyframes slideIn {
+	0% {opacity:0;-webkit-transform: translate3d(0,20px,0);-moz-transform: translate3d(0,20px,0);transform: translate3d(0,20px,0);}
+	100% {opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+}
+
+/* === Element SlideUp === */
+@-webkit-keyframes slideUpAlt {
+	0% {opacity:0;-webkit-transform: translate3d(0,100%,0) scale(0.8);transform: translate3d(0,100%,0) scale(0.8);}
+	20% {opacity:1;}
+	100% {opacity:1;-webkit-transform: translate3d(0,0,0) scale(1);transform: translate3d(0,0,0) scale(1);}
+}
+@-moz-keyframes slideUpAlt {
+	0% {opacity:0;-moz-transform: translate3d(0,100%,0) scale(0.8);transform: translate3d(0,100%,0) scale(0.8);}
+	20% {opacity:1;}
+	100% {opacity:1;-moz-transform: translate3d(0,0,0) scale(1);transform: translate3d(0,0,0) scale(1);}
+}
+@-ms-keyframes slideUpAlt {
+	0% {opacity:0;-ms-transform: translate3d(0,100%,0) scale(0.8);transform: translate3d(0,100%,0) scale(0.8);}
+	20% {opacity:1;}
+	100% {opacity:1;-ms-transform:translate3d(0,0,0) scale(1);transform:translate3d(0,0,0) scale(1);}
+}
+@keyframes slideUpAlt {
+	0% {opacity:0;-webkit-transform: translate3d(0,100%,0) scale(0.8);-moz-transform: translate3d(0,100%,0) scale(0.8);transform: translate3d(0,100%,0) scale(0.8);}
+	20% {opacity:1;}
+	100% {opacity:1;-webkit-transform:translate3d(0,0,0) scale(1);-moz-transform:translate3d(0,0,0) scale(1);transform:translate3d(0,0,0) scale(1);}
+}
+.slideUpAlt{
+	outline:1px solid transparent;
+	-webkit-animation: slideUpAlt 0.5s ease-out both;
+	-moz-animation: slideUpAlt 0.5s ease-out both;
+	-ms-animation: slideUpAlt 0.5s ease-out both;
+	animation: slideUpAlt 0.5s ease-out both;
+}
